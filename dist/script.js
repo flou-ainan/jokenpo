@@ -28,6 +28,9 @@ function reiniciar(){
   let opcaoPC = document.getElementById("opcaoPC")
   opcaoPC.style.display = "none"
   
+  let reiniciar = document.getElementById("recomecar")
+  reiniciar.style.display = "none"
+
   iniciar()
 }
 
@@ -88,7 +91,10 @@ function iniciarAdversario(opcao){
           }
         break;
       }
-      setTimeout(() => {},)
+      setTimeout(() => {
+        let reiniciar = document.getElementById("recomecar")
+        reiniciar.style.display = "flex"
+      },340)
     },200)
   },1800)
 }

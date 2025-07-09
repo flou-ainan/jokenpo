@@ -36,6 +36,10 @@ span {
   display: none;
 }
 
+.recomecar {
+  display: none;
+}
+
 /* LOADER */
 .loader {
   margin-top: 20px;
