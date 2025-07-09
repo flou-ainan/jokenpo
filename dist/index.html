@@ -11,12 +11,21 @@
 <h1> Joken Po </h1>
 
 <button class="comecar" onclick="iniciar()"> Começar </button>
-
-<p class="texto-opcao jogando">Escolha uma opção:</p>
-<div class="opcoes jogando">
-  <span  id="pedra" class="opcao"  onclick="escolher('pedra')">  🪨</span>
-  <span  id="papel" class="opcao"  onclick="escolher('papel')">  📃</span>
-  <span  id="tesoura" class="opcao" onclick="escolher('tesoura')"> ✂️</span>
+<div class="game jogando">
+  <p class="texto-opcao jogando">Escolha uma opção:</p>
+  <div class="opcoes jogando">
+    <span  id="pedra" class="opcao"  onclick="escolher('pedra')">  🪨</span>
+    <span  id="papel" class="opcao"  onclick="escolher('papel')">  📃</span>
+    <span  id="tesoura" class="opcao" onclick="escolher('tesoura')"> ✂️</span>
+  </div>
+  <span class="loader" id="loader"></span>
+  <div class="opcoes jogando">
+    <span  id="opcaoPC" class="opcaoPC">🪨</span>
+  </div>
+  <div class="resultado jogando" id="resultado">
+  </div>
+  <button class="recomecar" onclick="reiniciar()"> Recomeçar </button>
+</div>
 
   <script  src="./script.js"></script>
 
