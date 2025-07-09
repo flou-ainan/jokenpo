@@ -1,4 +1,6 @@
 function iniciar(){
   var opcoes = document.getElementsByClassName("opcoes")[0];
-  opcoes.st
+  opcoes.computedStyleMap.display = "flex";
 }
+
+

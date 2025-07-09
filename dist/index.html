@@ -7,16 +7,17 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
 <h1> Joken Po </h1>
 
-<button onclick="iniciar()"> Começar </button>
+<button class="comecar" onclick="iniciar()"> Começar </button>
 
-<div class="opcoes">
-  <span onclick="escolher("pedra")">🪨</span>
-  <span onclick="escolher("papel")">📃</span>
-  <span onclick="escolher("tesoura")">✂️</span>
-<!-- partial -->
+<p class="texto-opcao jogando">Escolha uma opção:</p>
+<div class="opcoes jogando">
+  <span  id="pedra" class="opcao"  onclick="escolher('pedra')">  🪨</span>
+  <span  id="papel" class="opcao"  onclick="escolher('papel')">  📃</span>
+  <span  id="tesoura" class="opcao" onclick="escolher('tesoura')"> ✂️</span>
+
   <script  src="./script.js"></script>
 
 </body>

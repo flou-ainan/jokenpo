@@ -10,7 +10,7 @@ span {
 }
 
 .opcoes {
-  display: flex;
+  display: none;
   gap: 50px;
   padding-top: 20px;
 }
